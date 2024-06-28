@@ -39,7 +39,7 @@ public class WorkloadExcelProcessor {
 
     public static Workbook createReportWorkload(Map<String, List<WorkloadQuery>> mapWorkLoad, List<WorkloadQuery> data) throws IOException {
         // Получение полного пути к файлу шаблона
-        File templateFile = new File("src/main/java/com/example/demo/helpers/templates/WorkloadTemplate.xlsx");
+        File templateFile = new File("templates/WorkloadTemplate.xlsx");
         return createReport(templateFile, mapWorkLoad, data);
     }
 

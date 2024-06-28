@@ -16,7 +16,7 @@ import static com.example.demo.helpers.WorkbookHelpers.*;
 public class PlanExcelProcessor {
     public static Workbook createReportPlan(PlanQuery teacher, List<WorkloadQuery> workload) {
         // Получение полного пути к файлу шаблона
-        File templateFile = new File("src/main/java/com/example/demo/helpers/templates/IndPlanTemplate.xlsx");
+        File templateFile = new File("templates/IndPlanTemplate.xlsx");
         return createReport(templateFile, teacher, workload);
     }
 

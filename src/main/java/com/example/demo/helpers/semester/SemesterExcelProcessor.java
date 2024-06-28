@@ -20,7 +20,7 @@
             sumDogovor = 0;
             sumPlan = 0;
             // Получение полного пути к файлу шаблона
-            File templateFile = new File("src/main/java/com/example/demo/helpers/templates/SemesterTemplate.xlsx");
+            File templateFile = new File("templates/SemesterTemplate.xlsx");
             return createReport(templateFile, workloadQueries, isAutumn);
         }
 

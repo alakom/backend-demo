@@ -14,7 +14,7 @@ import java.util.Map;
 public class ExampleExcelProcessor {
     public static Workbook getExampleFile() throws IOException {
         // Получение полного пути к файлу шаблона
-        File templateFile = new File("src/main/java/com/example/demo/helpers/templates/Example.xlsx");
+        File templateFile = new File("templates/Example.xlsx");
         return createReport(templateFile);
     }
     private static Workbook createReport(File templateFile) throws IOException {
